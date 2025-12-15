@@ -1,0 +1,23 @@
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      21      1    142      1      36 __init__@19-54@src/door_operation_control/door_operation_control/door_node.py
+       9      2     45      2      11 state_callback@59-69@src/door_operation_control/door_operation_control/door_node.py
+       3      1     25      2       4 user_inside_callback@71-74@src/door_operation_control/door_operation_control/door_node.py
+       3      1     25      2       4 auth_callback@76-79@src/door_operation_control/door_operation_control/door_node.py
+      30     12    171      1      49 evaluate_logic@84-132@src/door_operation_control/door_operation_control/door_node.py
+       8      2     55      2      11 publish_door@137-147@src/door_operation_control/door_operation_control/door_node.py
+       4      1     26      1       5 timer_callback@149-153@src/door_operation_control/door_operation_control/door_node.py
+      10      3     54      1      12 main@156-167@src/door_operation_control/door_operation_control/door_node.py
+1 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+     94      11.0     2.9       67.9         8     src/door_operation_control/door_operation_control/door_node.py
+
+===============================================================================================================
+No thresholds exceeded (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100)
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+        94      11.0     2.9       67.9        8            0      0.00    0.00
